@@ -1,24 +1,24 @@
 {
   "audioPrefs": {
     "Fajr": {
-      "mode": "silent",
-      "url": ""
+      "mode": "adhan",
+      "url": "https://ktawfik68.github.io/tablet-prayer-dashboard/audio/Ahmed_ElHaddad.mp3"
     },
     "Dhuhr": {
-      "mode": "silent",
-      "url": ""
+      "mode": "adhan",
+      "url": "https://ktawfik68.github.io/tablet-prayer-dashboard/audio/Ahmed_ElHaddad.mp3"
     },
     "Asr": {
-      "mode": "silent",
-      "url": ""
+      "mode": "adhan",
+      "url": "https://ktawfik68.github.io/tablet-prayer-dashboard/audio/Ahmed_ElHaddad.mp3"
     },
     "Maghrib": {
-      "mode": "silent",
-      "url": ""
+      "mode": "adhan",
+      "url": "https://ktawfik68.github.io/tablet-prayer-dashboard/audio/Ahmed_ElHaddad.mp3"
     },
     "Isha": {
-      "mode": "silent",
-      "url": ""
+      "mode": "adhan",
+      "url": "https://ktawfik68.github.io/tablet-prayer-dashboard/audio/Ahmed_ElHaddad.mp3"
     }
   }
 }
