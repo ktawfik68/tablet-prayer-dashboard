@@ -1,0 +1,24 @@
+{
+  "audioPrefs": {
+    "Fajr": {
+      "mode": "silent",
+      "url": ""
+    },
+    "Dhuhr": {
+      "mode": "silent",
+      "url": ""
+    },
+    "Asr": {
+      "mode": "silent",
+      "url": ""
+    },
+    "Maghrib": {
+      "mode": "silent",
+      "url": ""
+    },
+    "Isha": {
+      "mode": "silent",
+      "url": ""
+    }
+  }
+}
