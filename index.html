@@ -9,8 +9,8 @@ body.weather-view main{min-height:100vh;display:flex;flex-direction:column;justi
 .weather-panel{display:none;text-align:center;width:100%;padding:14px 4px}
 body.weather-view .weather-panel{display:block}
 .wx-place{font-size:19px;color:#b7c8d7;letter-spacing:2px}
-.wx-clock{font-size:clamp(70px,13vw,135px);font-weight:300;letter-spacing:-3px;font-variant-numeric:tabular-nums;margin:6px 0 12px}
-.wx-current{font-size:clamp(70px,13vw,125px);font-weight:300;line-height:1.1}
+.wx-clock{font-size:112px;font-weight:300;letter-spacing:-3px;font-variant-numeric:tabular-nums;margin:6px 0 12px}
+.wx-current{font-size:105px;font-weight:300;line-height:1.1}
 .wx-current .wx-big-icon{font-size:.68em;vertical-align:12%;margin-right:12px}
 .wx-description{font-size:21px;color:#cbd9e7;margin:4px 0 18px}
 .wx-week{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:7px;margin:0 0 24px}
@@ -18,12 +18,12 @@ body.weather-view .weather-panel{display:block}
 .wx-week .wx-icon{font-size:31px}
 .wx-week .wx-range{font-size:13px}
 .wx-next{background:#1b3044;border:2px solid #607d95;border-radius:18px;padding:22px 12px}
-.wx-next-label{color:#f2cc74;letter-spacing:2px;font-size:clamp(22px,3vw,32px);font-weight:700}
-.wx-next-count{font-size:clamp(68px,10vw,108px);font-weight:400;font-variant-numeric:tabular-nums;margin:8px 0;color:#fff}
-.wx-next-time{color:#e3edf6;font-size:clamp(23px,3vw,31px)}
+.wx-next-label{color:#f2cc74;letter-spacing:2px;font-size:28px;font-weight:700}
+.wx-next-count{font-size:88px;font-weight:400;font-variant-numeric:tabular-nums;margin:8px 0;color:#fff}
+.wx-next-time{color:#e3edf6;font-size:27px}
 .screen-nav{position:fixed;z-index:20;top:46%;background:rgba(40,71,93,.55);border:1px solid rgba(140,164,183,.35);color:#d5e2ed;border-radius:9px;padding:16px 7px;font-size:24px;line-height:1;touch-action:manipulation}
 .screen-nav.left{left:2px}.screen-nav.right{right:2px}
-@media(orientation:portrait){.wx-clock{font-size:105px;margin:24px 0}.wx-current{font-size:110px}.wx-week{margin:30px 0}.wx-next{margin-top:25px}}
+@media(orientation:portrait){.wx-clock{font-size:105px;margin:24px 0}.wx-current{font-size:110px}.wx-week{margin:30px 0}.wx-next{margin-top:25px}.wx-next-count{font-size:88px}.wx-next-label{font-size:27px}.wx-next-time{font-size:27px}}
 @media(max-width:650px){.wx-clock{font-size:72px}.wx-current{font-size:75px}.wx-week{gap:3px}.wx-week .forecast-day{padding:8px 1px;font-size:11px}.wx-week .wx-icon{font-size:22px}.wx-week .wx-range{font-size:10px}.wx-next-count{font-size:64px}}
 </style></head><body><main id="displayContent">
 <section class="weather-panel" id="weatherPanel"><div class="wx-place">OAKVILLE, ONTARIO</div><div class="wx-clock" id="wxClock">--:--</div><div class="wx-current" id="wxCurrent">--°C</div><div class="wx-description" id="wxDescription">Weather loading…</div><div class="wx-week" id="wxWeek"></div><div class="wx-next"><div class="wx-next-label" id="wxNextLabel">NEXT PRAYER</div><div class="wx-next-count" id="wxNextCount">--:--:--</div><div class="wx-next-time" id="wxNextTime"></div></div></section>
