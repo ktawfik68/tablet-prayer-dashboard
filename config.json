@@ -1,5 +1,9 @@
 {
   "audioPrefs": {
+    "Sunrise": {
+      "mode": "chime",
+      "url": ""
+    },
     "Fajr": {
       "mode": "adhan",
       "url": "https://ktawfik68.github.io/tablet-prayer-dashboard/audio/Ahmed_ElHaddad.mp3"
