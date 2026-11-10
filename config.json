@@ -1,7 +1,7 @@
 {
   "audioPrefs": {
     "Sunrise": {
-      "mode": "chime",
+      "mode": "mp3",
       "url": "https://ktawfik68.github.io/tablet-prayer-dashboard/audio/Sunrise_birds_01.mp3"
     },
     "Fajr": {
